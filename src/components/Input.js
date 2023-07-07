@@ -1,6 +1,6 @@
-function Input({ value, label, onChange}) {
+function Input({ value, label, handleNameProp}) {
     const inputHandlerChange = (event) => {
-      onChange(event.target.value);
+      handleNameProp(event.target.value);
     };
     return (
       <div>

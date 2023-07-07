@@ -1,8 +1,8 @@
 import styles from './Button.module.css'
 
-function Button({ label, onClick }) {
+function Button({ label, handleClick }) {
   return (
-    <button className={styles.button} onClick={onClick}>
+    <button className={styles.button} onClick={handleClick}>
       {label}
     </button>
   )
